@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    font-family:  'Cinzel Decorative', cursive;
+    font-size:18px;
+    font-weight: 900;
+    font-variant: small-caps;
+    background-color: white;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+h1 {
+    color:purple;
+    text-align: center;
+}
+
+.header{
+    background: lightgray;
+    border-bottom: gray 3px solid;
+    padding:20px;
+}
+form {
+    margin: 0 auto;
+    border: gray 3px solid;
+    width: 35%;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+button {
+    transition: .3s;
+    border: gray 3px solid;
+    background-color: purple;
+    color: white;
+  }
+  .result {
+    margin: 0 auto;
+    transition: .3s;
+    border: gray 3px solid;
+    padding: .25rem;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: lightgray;
+    color: black;
+  }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:lightgray;
+    color: white;
+    text-align: center;
+ }

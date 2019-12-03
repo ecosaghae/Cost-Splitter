@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cost Splitter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <script src="cal.js"></script>
+
+</head>
+<body>
+    <div class = "header">
+        <h1 id= "heading">Cost Splitter</h1>
+        <p>The easiest way to split expenses evenly in a group</p>
+    </div>
+    <p>Enter information below</p>
+    <form class= "insert">
+</i> How Much?</i><br><br>
+    <input type = "text" id="total" placeholder="Enter the total"/><br/><br/>
+</i> How many?</i><br><br>
+    <input type = "text" id="people" placeholder="How many people?"/><br/><br/>
+
+     <select id="operators">
+        <option value="/">/</option>
+    </select> 
+</form>
+    <div class="button" >
+    <button onclick="calc()" value="/">Split!</button><br><br>
+    <button onclick="newFunction()" value="Reset">New Calulation</button><br><br>
+    </div>
+    <div class ="result">
+        <p>Cost per person</p>
+    <input type="text" id="result" placeholder="Cost per person"/>
+    </div>
+
+
+</body>
+<div class="footer">
+        <p>Copyright &copy; Efe Osaghae</p>
+      </div>
+</html>
